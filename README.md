@@ -1,7 +1,5 @@
 # Automação de Mensagem via WhatsApp
 
-Projeto tem como objetivo demonstrar o envio de mensagem automática com a linguagem de programação Python.
-
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Automação de Mensagem via WhatsApp**
