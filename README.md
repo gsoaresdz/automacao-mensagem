@@ -1,15 +1,9 @@
-# Automação de Mensagem via WhatsApp
+![imagem_2022-08-08_142041747](https://ik.imagekit.io/rs4q00nqg/Captura_de_tela_2022-09-13_203440_XL-wFTns9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663112092979)
 
-Projeto tem como objetivo demonstrar o envio de mensagem automática com a linguagem de programação Python.
+# Descrição do projeto
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **Automação de Mensagem via WhatsApp**
-| :label: Tecnologias | Python com Selenium + Pandas
+- Este é um projeto do curso da Hashtag Treinamentos [hashtagtreinamentos]([https://origamid.com](https://hashtagtreinamentos.com)). É um projeto que simula uma automação de envio de mensagens atravéns do WhatsApp Web, confeccionado com Python, Módulos/Bibliotecas Selenium e Pandas.
 
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://i.pinimg.com/originals/54/2c/8b/542c8b091f6c1bc3a8a1c33a71466521.jpg#vitrinedev)
+- Ao total foram desenvolvidas 7 páginas;
 
-## Detalhes do projeto
-
-![](https://ik.imagekit.io/rs4q00nqg/Captura_de_tela_2022-09-13_203440_XL-wFTns9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663112092979#vitrinedev)
+- Durante o desenvolvimento do projeto, pude reforçar os conceitos de condições com o Python, utilização de módulos e Bibliotecas.
