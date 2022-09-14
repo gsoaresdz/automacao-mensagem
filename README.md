@@ -1,4 +1,4 @@
-# :sparkles: Automação de envio de Mensagens com o Python
+# :sparkles: Automação de envio de Mensagens com o WhatsApp Web
 
 ![imagem_2022-08-08_142041747](https://ik.imagekit.io/rs4q00nqg/Captura_de_tela_2022-09-13_203440_XL-wFTns9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663112092979)
 
