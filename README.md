@@ -4,9 +4,7 @@
 
 # :label: Descrição do projeto
 
-- Este é um projeto do curso da Hashtag Treinamentos [hashtagtreinamentos]([https://origamid.com](https://hashtagtreinamentos.com)). É um projeto que simula uma automação de envio de mensagens atravéns do WhatsApp Web, confeccionado com Python, Módulos/Bibliotecas Selenium e Pandas.
-
-- Ao total foram desenvolvidas 7 páginas;
+- Este é um projeto do curso da Hashtag Treinamentos [hashtagtreinamentos]([https://origamid.com](https://hashtagtreinamentos.com)). É um projeto que simula uma automação de envio de mensagens atravéns do WhatsApp Web, confeccionado com Python, Módulos/Bibliotecas Selenium e Pandas;
 
 - Durante o desenvolvimento do projeto, pude reforçar os conceitos de condições com o Python, utilização de módulos e Bibliotecas.
 
