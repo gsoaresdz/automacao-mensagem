@@ -1,6 +1,6 @@
 # :sparkles: Automação de envio de Mensagens com o WhatsApp Web
 
-![imagem_2022-08-08_142041747](https://ik.imagekit.io/rs4q00nqg/Captura_de_tela_2022-09-13_203440_XL-wFTns9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663112092979)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/69989654/190039564-b31aac5e-7c61-45b5-a635-7dd0db73a556.gif)
 
 # :label: Descrição do projeto
 
@@ -8,3 +8,13 @@
 
 - Durante o desenvolvimento do projeto, pude reforçar os conceitos de condições com o Python, utilização de módulos e Bibliotecas.
 
+
+# 🎲 Instalações (Anaconda Prompt)
+
+```bash
+# Pandas
+pip install pandas
+
+# Selenium
+pip install selenium
+```
