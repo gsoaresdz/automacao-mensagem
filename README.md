@@ -8,3 +8,13 @@
 
 - Durante o desenvolvimento do projeto, pude reforçar os conceitos de condições com o Python, utilização de módulos e Bibliotecas.
 
+
+# 🎲 Instalações (Anaconda Prompt)
+
+```bash
+# Pandas
+pip install pandas
+
+# Selenium
+pip install selenium
+```
