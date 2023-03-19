@@ -18,6 +18,7 @@ Inicie seu projeto e, no terminal, instale os imports dos módulos e bibliotecas
 
 `
 import pandas as pd
+<br>
 from distutils.spawn import find_executable
 from selenium import webdriver
 from selenium.webdriver.common.by import By
