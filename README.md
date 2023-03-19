@@ -1,8 +1,8 @@
 # Descrição do projeto
 
-- Este é um projeto do curso da Hashtag Treinamentos [hashtagtreinamentos]([https://origamid.com](https://hashtagtreinamentos.com)). É um projeto que simula uma automação de envio de mensagens através do WhatsApp Web, confeccionado com Python, Módulos/Bibliotecas Selenium e Pandas;
+- Este projeto faz parte do curso da Hashtag Treinamentos [hashtagtreinamentos]([https://origamid.com](https://hashtagtreinamentos.com)). Ele consiste em uma simulação de automação para envio de mensagens via WhatsApp Web, desenvolvido com Python, e utilizando os módulos/bibliotecas Selenium e Pandas.
 
-- Durante o desenvolvimento do projeto, pude reforçar os conceitos de condições com o Python, utilização de módulos e Bibliotecas.
+- O desenvolvimento do projeto permitiu o reforço de conceitos como condições em Python e a utilização de módulos e bibliotecas.
 
 # Ferramentas necessárias
 
@@ -12,11 +12,19 @@
 
 # Passo a passo
 
-Baixado e instalado tudo corretamente, vamos ao que interessa 😃
+Com todas as ferramentas baixadas e instaladas, vamos ao que interessa 😃
 
-Com seu projeto inicializado, realize a instalação no terminal dos imports dos módulos e bibliotecas para funcionalidade do projeto.
+Inicie seu projeto e, no terminal, instale os imports dos módulos e bibliotecas necessários para o funcionamento do projeto.
 
-`import pandas as pd`
+`
+import pandas as pd
+from distutils.spawn import find_executable
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+import time
+import urllib
+`
 <br>
 `from distutils.spawn import find_executable`
 <br>
