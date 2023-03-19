@@ -26,6 +26,6 @@ import time
 import urllib
 ```
 
-Após isso executar o projeto na função Run All conforme ilustração abaixo:
+Após a instalação, execute o projeto utilizando a função "Run All", conforme ilustrado abaixo:
 
 ![aut_msg](https://user-images.githubusercontent.com/69989654/204105156-8110c8b2-6aa3-41b8-b580-73ffe88f143b.png)
