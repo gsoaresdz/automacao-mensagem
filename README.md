@@ -1,37 +1,24 @@
-# Descrição do projeto
+Descrição do Projeto
+Este projeto faz parte do curso da Hashtag Treinamentos hashtagtreinamentos. Ele consiste em uma simulação de automação para envio de mensagens via WhatsApp Web, desenvolvido com Python, e utilizando os módulos/bibliotecas Selenium e Pandas.
 
-- Este é um projeto do curso da Hashtag Treinamentos [hashtagtreinamentos]([https://origamid.com](https://hashtagtreinamentos.com)). É um projeto que simula uma automação de envio de mensagens através do WhatsApp Web, confeccionado com Python, Módulos/Bibliotecas Selenium e Pandas;
+O desenvolvimento do projeto permitiu o reforço de conceitos como condições em Python e a utilização de módulos e bibliotecas.
 
-- Durante o desenvolvimento do projeto, pude reforçar os conceitos de condições com o Python, utilização de módulos e Bibliotecas.
+Ferramentas Necessárias
+Visual Studio Code
 
-# Ferramentas necessárias
+Jupyter
 
-- [Visual Studio Code](https://code.visualstudio.com/)
+Passo a Passo
+Com todas as ferramentas baixadas e instaladas, vamos ao que interessa 😃
 
-- [Jupyter](https://jupyter.org/)
+Inicie seu projeto e, no terminal, instale os imports dos módulos e bibliotecas necessários para o funcionamento do projeto.
 
-# Passo a passo
-
-Baixado e instalado tudo corretamente, vamos ao que interessa 😃
-
-Com seu projeto inicializado, realize a instalação no terminal dos imports dos módulos e bibliotecas para funcionalidade do projeto.
-
-`import pandas as pd`
-<br>
-`from distutils.spawn import find_executable`
-<br>
-`from selenium import webdriver`
-<br>
-`from selenium.webdriver.common.by import By`
-<br>
-`from selenium.webdriver.common.keys import Keys`
-<br>
-`import time`
-<br>
-`import urllib`
-<br>
-<br>
-
-Após isso executar o projeto na função Run All conforme ilustração abaixo:
-
-![aut_msg](https://user-images.githubusercontent.com/69989654/204105156-8110c8b2-6aa3-41b8-b580-73ffe88f143b.png)
+python
+Copy code
+import pandas as pd
+from distutils.spawn import find_executable
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+import time
+import urllib
