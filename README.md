@@ -16,30 +16,15 @@ Com todas as ferramentas baixadas e instaladas, vamos ao que interessa 😃
 
 Inicie seu projeto e, no terminal, instale os imports dos módulos e bibliotecas necessários para o funcionamento do projeto.
 
-`
+```
 import pandas as pd
-<br>
 from distutils.spawn import find_executable
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 import urllib
-`
-<br>
-`from distutils.spawn import find_executable`
-<br>
-`from selenium import webdriver`
-<br>
-`from selenium.webdriver.common.by import By`
-<br>
-`from selenium.webdriver.common.keys import Keys`
-<br>
-`import time`
-<br>
-`import urllib`
-<br>
-<br>
+```
 
 Após isso executar o projeto na função Run All conforme ilustração abaixo:
 
