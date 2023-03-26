@@ -1,31 +1,41 @@
-# Descrição do projeto
+# **Automação de Envio de Mensagens com o WhatsApp Web**
 
-- Este projeto faz parte do curso da Hashtag Treinamentos [hashtagtreinamentos]([https://origamid.com](https://hashtagtreinamentos.com)). Ele consiste em uma simulação de automação para envio de mensagens via WhatsApp Web, desenvolvido com Python, e utilizando os módulos/bibliotecas Selenium e Pandas.
+Este projeto é uma aplicação Python que utiliza a biblioteca Selenium para automatizar o envio de mensagens através do WhatsApp Web. Ele lê informações de contato e mensagens de um arquivo Excel e envia mensagens para os contatos especificados.
 
-- O desenvolvimento do projeto permitiu o reforço de conceitos como condições em Python e a utilização de módulos e bibliotecas.
+## **Requisitos**
 
-# Ferramentas necessárias
+- Python 3.x
+- Bibliotecas: pandas, selenium
+- Google Chrome
+- WebDriver do Chrome (de acordo com a versão do navegador)
 
-- [Visual Studio Code](https://code.visualstudio.com/)
+## **Instalação**
 
-- [Jupyter](https://jupyter.org/)
-
-# Passo a passo
-
-Com todas as ferramentas baixadas e instaladas, vamos ao que interessa 😃
-
-Inicie seu projeto e, no terminal, instale os imports dos módulos e bibliotecas necessários para o funcionamento do projeto.
+1. Clone o repositório:
 
 ```
-import pandas as pd
-from distutils.spawn import find_executable
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-import time
-import urllib
+git clone https://github.com/yourusername/whatsapp-web-automation.git
 ```
 
-Após a instalação, execute o projeto utilizando a função "Run All", conforme ilustrado abaixo:
+2. Instale as bibliotecas necessárias:
 
-![aut_msg](https://user-images.githubusercontent.com/69989654/204105156-8110c8b2-6aa3-41b8-b580-73ffe88f143b.png)
+```
+pip install pandas selenium
+```
+
+3. Baixe o WebDriver do Chrome aqui e coloque-o no diretório do projeto ou em um diretório listado no PATH do sistema.
+
+```
+pip install pandas selenium
+```
+
+## **Uso**
+
+1. Crie um arquivo Excel chamado **`Enviar.xlsx`** no formato abaixo:
+
+```
+| Pessoa | Número          | Mensagem       |
+|--------|-----------------|----------------|
+| Maria  | 5511xxxxxxxxx   | Olá, tudo bem? |
+| João   | 5511xxxxxxxxx   | Bom dia!       |
+```
