@@ -1,4 +1,4 @@
-**Automação de envio de Mensagens com o WhatsApp Web**
+##Automação de envio de Mensagens com o WhatsApp Web
 
 Este projeto consiste em um script Python que automatiza o envio de mensagens para contatos do WhatsApp Web. O script utiliza as seguintes bibliotecas:
 
