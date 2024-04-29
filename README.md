@@ -65,8 +65,6 @@ A primeira parte do código importa o arquivo Excel com os contatos e mensagens 
 
 O código utiliza a biblioteca pandas para importar o arquivo Excel. O código a seguir mostra como importar o arquivo:
 
-## :memo: Python
-
 ```python
 contatos_df = pd.read_excel(r"arquivos/Enviar.xlsx")
 ```
@@ -80,8 +78,6 @@ A segunda parte do código automatiza o envio de mensagens para os contatos do a
 :heavy_check_mark: **Feature 3**: A mensagem é enviada na forma "Oi [nome]! [mensagem]".\
 
 O código a seguir mostra como enviar uma mensagem para um contato:
-
-## :memo: Python
 
 ```python
 pessoa = contatos_df.loc[i, "Pessoa"]
@@ -113,6 +109,7 @@ Antes de iniciar :checkered_flag:, você precisa ter [Git](https://git-scm.com) 
 
 ```bash
 # Clone this project
+
 $ git clone https://github.com/gsoaresdz/automacao-mensagem.git
 ```
 
