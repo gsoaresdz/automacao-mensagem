@@ -126,4 +126,4 @@ Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoa
 
 &#xa0;
 
-<a href="#top">Back to top</a>
+<a href="#top">De volta ao topo</a>
