@@ -15,13 +15,13 @@
 
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/gsoaresdz" target="_blank">Author</a>
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-execucao">Execução</a> &#xa0; | &#xa0;
+  <a href="#memo-licenca">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
 </p>
 
 <br>
@@ -101,7 +101,7 @@ As seguintes ferramentas foram usadas neste projeto:
 - [Jupyter](https://jupyter.org/)
 - [Anaconda](https://www.anaconda.com/)
 
-## :white_check_mark: Requirements
+## :white_check_mark: Requerimentos
 
 Antes de iniciar :checkered_flag:, você precisa ter [Git](https://git-scm.com) e [Python](https://www.python.org/) instalado.
 
@@ -118,7 +118,7 @@ $ git clone https://github.com/gsoaresdz/automacao-mensagem.git
 - O script foi desenvolvido para fins educacionais. Não é recomendado o uso do script para enviar mensagens em massa para contatos que não autorizaram o envio.
 - O script pode ser modificado para atender a diferentes necessidades. Por exemplo, é possível alterar o intervalo de tempo entre os envios de mensagens ou incluir novas funcionalidades.
 
-## :memo: License
+## :memo: Licença
 
 Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
 
