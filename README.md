@@ -120,7 +120,7 @@ $ git clone https://github.com/gsoaresdz/automacao-mensagem.git
 
 ## :memo: License
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
+Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
 
 Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
 
