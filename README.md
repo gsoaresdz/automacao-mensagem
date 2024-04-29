@@ -55,7 +55,7 @@ O código é dividido em duas partes principais:
 - Importação de Arquivo Excel
 - Automação de Envio de Mensagens
 
-## :memo: Importação de Arquivo Excel**
+## :memo: Importação de Arquivo Excel
 
 A primeira parte do código importa o arquivo Excel com os contatos e mensagens a serem enviadas. O arquivo deve ter as seguintes colunas:
 
