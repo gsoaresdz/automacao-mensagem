@@ -19,7 +19,7 @@
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-execucao">Execução</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
   <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
   <a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
 </p>
