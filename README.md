@@ -108,7 +108,7 @@ Antes de iniciar :checkered_flag:, você precisa ter [Git](https://git-scm.com) 
 ## :checkered_flag: Execução
 
 ```bash
-# Clone this project
+# Clone do projeto
 
 $ git clone https://github.com/gsoaresdz/automacao-mensagem.git
 ```
