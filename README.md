@@ -9,6 +9,8 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/automacao-mensagem?color=56BEB8">
 
+  <img alt="License" src="https://img.shields.io/github/license/gsoaresdz/automacao-mensagem?color=56BEB8">
+
 </p>
 
 
