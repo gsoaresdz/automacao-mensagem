@@ -1,6 +1,4 @@
-&#xa0;
-
-<h1 align="center">Automação de envio de Mensagens com o WhatsApp Web</h1>
+<h1 align="center">Automated Message Sending with WhatsApp Web</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/automacao-mensagem?color=56BEB8">
@@ -13,57 +11,56 @@
 
 </p>
 
-
 <p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
-  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-execution">Execution</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/gsoaresdz" target="_blank">Author</a>
 </p>
 
 <br>
 
-## :dart: Sobre
+## :dart: About
 
-Este projeto consiste em um script Python que automatiza o envio de mensagens para contatos do WhatsApp Web. O script utiliza as seguintes bibliotecas:
+This project consists of a Python script that automates sending messages to contacts on WhatsApp Web. The script uses the following libraries:
 
-- **pandas:** para importar o arquivo Excel com os contatos e mensagens a serem enviadas.
-- **selenium:** para controlar o navegador Chrome e interagir com o WhatsApp Web.
-- **urllib:** para codificar a mensagem a ser enviada.
+- **pandas:** to import the Excel file containing contacts and messages to be sent.
+- **selenium:** to control the Chrome browser and interact with WhatsApp Web.
+- **urllib:** to encode the message before sending.
 
-## :memo: IDE e versão do Python
+## :memo: IDE and Python Version
 
-O script foi desenvolvido no Visual Studio Code com a versão 3.10.4 do Python.
+The script was developed using Visual Studio Code with Python version 3.10.4.
 
-## :memo: Regra de negócio
+## :memo: Business Logic
 
-O script funciona da seguinte forma:
+The script works as follows:
 
-1. Importa o arquivo Excel com os contatos e mensagens a serem enviadas.
-2. Abre o WhatsApp Web no navegador Chrome.
-3. Percorre o arquivo Excel, enviando uma mensagem para cada contato.
-4. A mensagem é enviada na forma "Oi [nome]! [mensagem]".
-5. O script aguarda 12 segundos entre cada envio para evitar que o WhatsApp bloqueie a conta.
+1. Imports an Excel file containing contacts and messages to be sent.
+2. Opens WhatsApp Web in the Chrome browser.
+3. Iterates through the Excel file, sending a message to each contact.
+4. The message is sent in the format: "Hi [name]! [message]".
+5. The script waits 12 seconds between each message to prevent WhatsApp from blocking the account.
 
-## :memo: Passos executados no código
+## :memo: Steps Executed in the Code
 
-O código é dividido em duas partes principais:
+The code is divided into two main parts:
 
-- Importação de Arquivo Excel
-- Automação de Envio de Mensagens
+- Importing an Excel File
+- Automating Message Sending
 
-## :memo: Importação de Arquivo Excel
+## :memo: Importing an Excel File
 
-A primeira parte do código importa o arquivo Excel com os contatos e mensagens a serem enviadas. O arquivo deve ter as seguintes colunas:
+The first part of the code imports an Excel file containing the contacts and messages to be sent. The file should have the following columns:
 
-- **Pessoa:** nome do contato.
-- **Número:** número de telefone do contato.
-- **Mensagem:** mensagem a ser enviada.
+- **Person:** contact's name.
+- **Number:** contact's phone number.
+- **Message:** message to be sent.
 
-O código utiliza a biblioteca pandas para importar o arquivo Excel. O código a seguir mostra como importar o arquivo:
+The code uses the pandas library to import the Excel file. The following snippet demonstrates how to import the file:
 
 ```python
 contatos_df = pd.read_excel(r"arquivos/Enviar.xlsx")
@@ -71,59 +68,57 @@ contatos_df = pd.read_excel(r"arquivos/Enviar.xlsx")
 
 ## :sparkles: Features
 
-A segunda parte do código automatiza o envio de mensagens para os contatos do arquivo Excel. O código funciona da seguinte forma:
+The second part of the code automates the sending of messages to the contacts listed in the Excel file. The code functions as follows:
 
-:heavy_check_mark: **Feature 1**: Abre o WhatsApp Web no navegador Chrome.\
-:heavy_check_mark: **Feature 2**: Percorre o arquivo Excel, enviando uma mensagem para cada contato.\
-:heavy_check_mark: **Feature 3**: A mensagem é enviada na forma "Oi [nome]! [mensagem]".\
+:heavy_check_mark: **Feature 1**: Opens WhatsApp Web in the Chrome browser.
 
-O código a seguir mostra como enviar uma mensagem para um contato:
+:heavy_check_mark: **Feature 2**: Iterates through the Excel file, sending a message to each contact.
+
+:heavy_check_mark: **Feature 3**: Sends the message in the format: "Hi [name]! [message]".\
+
+The following snippet demonstrates how a message is sent to a contact:
 
 ```python
 pessoa = contatos_df.loc[i, "Pessoa"]
 numero = contatos_df.loc[i, "Número"]
-texto = urllib.parse.quote(f"Oi {pessoa}! {mensagem}")
+texto = urllib.parse.quote(f"Hi {pessoa}! {mensagem}")
 link = f"https://web.whatsapp.com/send?phone={numero}&text={texto}&/n"
 navegador.get(link)
-while
-len(navegador.find_elements(By.ID, "pane-side")) < 1:
-    time.sleep(1)
+while len(navegador.find_elements(By.ID, "pane-side")) < 1:
+    time.sleep(1)
 time.sleep(1)
 navegador.find_element(By.XPATH, '//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[2]/button/span').click()
-
 ```
 
-## :rocket: Tecnologias
+## :rocket: Technologies
 
-As seguintes ferramentas foram usadas neste projeto:
+The following tools were used in this project:
 
 - [Python](https://www.python.org/)
 - [Jupyter](https://jupyter.org/)
 - [Anaconda](https://www.anaconda.com/)
 
-## :white_check_mark: Requerimentos
+## :white_check_mark: Requirements
 
-Antes de iniciar :checkered_flag:, você precisa ter [Git](https://git-scm.com) e [Python](https://www.python.org/) instalado.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com/) and [Python](https://www.python.org/) installed.
 
-## :checkered_flag: Execução
+## :checkered_flag: Execution
 
 ```bash
-# Clone do projeto
+# Clone the project
 
 $ git clone https://github.com/gsoaresdz/automacao-mensagem.git
 ```
 
-## :memo: Observações
+## :memo: Notes
 
-- O script foi desenvolvido para fins educacionais. Não é recomendado o uso do script para enviar mensagens em massa para contatos que não autorizaram o envio.
-- O script pode ser modificado para atender a diferentes necessidades. Por exemplo, é possível alterar o intervalo de tempo entre os envios de mensagens ou incluir novas funcionalidades.
+- This script was developed for educational purposes. It is not recommended to use the script for mass messaging to contacts who have not authorized receiving messages.
+- The script can be modified to meet different needs. For example, you can change the time interval between message sending or add new functionalities.
 
-## :memo: Licença
+## :memo: License
 
-Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+This project is licensed under the MIT License. For more details, check the [LICENSE](LICENSE file.
 
-Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
+Made with :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
 
-&#xa0;
-
-<a href="#top">De volta ao topo</a>
+<a href="#top">Back to top</a>
