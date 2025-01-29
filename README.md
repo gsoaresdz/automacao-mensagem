@@ -1,11 +1,11 @@
 <h1 align="center">Automated Message Sending with WhatsApp Web</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/automacao-mensagem?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/gsoaresdz/automated-message?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/automacao-mensagem?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/gsoaresdz/automated-message?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/automacao-mensagem?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/gsoaresdz/automated-message?color=56BEB8">
 
   <!--<img alt="License" src="https://img.shields.io/github/license/gsoaresdz/automacao-mensagem?color=56BEB8">-->
 
